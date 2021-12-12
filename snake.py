@@ -2,6 +2,10 @@ import curses
 from random import randint #random integer import
 # Guide at https://www.youtube.com/watch?v=M_npdRYD4K0
 
+# INSTRUCTIONS ----------------------------------------
+# 'python snake.py' in terminal to run game, escape key to exit!
+# INSTRUCTIONS ----------------------------------------
+
 #setup window
 curses.initscr()
 win = curses.newwin(20, 60, 0 , 0)
